@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         txtUs = findViewById(R.id.txtUs);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api.gihub.com/")
+                .baseUrl("https://api.github.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
